@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+          "flex-layout.row#deals__container",
+          "flex-layout.row#categorias__container"
+        ]
     }
 }
