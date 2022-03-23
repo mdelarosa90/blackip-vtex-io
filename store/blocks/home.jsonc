@@ -1,11 +1,14 @@
 {
     "store.home": {
         "blocks": [
+          //"flex-layout.row#banners",
+          "list-context.image-list#main-banner",
           "flex-layout.row#deals__container",
           "flex-layout.row#categorias__container",
           "responsive-layout.desktop#pavo-dorado",
           "responsive-layout.mobile#pavo-dorado--mobile",
-          "flex-layout.row#products__container"
+          "flex-layout.row#products__container",
+          "flex-layout.row#promises-container"
         ]
     }
 }
