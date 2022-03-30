@@ -1,7 +1,8 @@
 {
     "store.home": {
         "blocks": [
-          "list-context.image-list#main-images"
+          "list-context.image-list#main-images",
+          "flex-layout.row#home__deals-container"
         ]
     }
 }
