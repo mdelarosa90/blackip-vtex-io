@@ -2,7 +2,8 @@
     "store.home": {
         "blocks": [
           "list-context.image-list#main-images",
-          "flex-layout.row#home__deals-container"
+          "flex-layout.row#home__deals-container",
+          "flex-layout.row#home__lo-mejor-para-tu-piel"
         ]
     }
 }
