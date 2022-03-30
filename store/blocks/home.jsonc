@@ -1,7 +1,7 @@
 {
     "store.home": {
         "blocks": [
-         
+          "list-context.image-list#main-images"
         ]
     }
 }
