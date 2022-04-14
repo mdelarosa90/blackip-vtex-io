@@ -1,0 +1,15 @@
+{
+
+  "list-context.product-list#vitrine": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["list-context-renderer#vitrine"]
+  },
+
+  "list-context-renderer#vitrine": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li",
+      "blockClass": ["vitrine-grid"]
+    }
+  }
+}
