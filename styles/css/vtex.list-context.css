@@ -46,7 +46,6 @@
 
   .list--brand-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
 
   .item--brand-grid:nth-child(4n) {
