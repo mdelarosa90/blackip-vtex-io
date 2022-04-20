@@ -1,0 +1,8 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text#nuestros-valores",
+      "rich-text#nuestros-valores--list"
+    ]
+  }
+}

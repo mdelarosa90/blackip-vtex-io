@@ -1,0 +1,14 @@
+{
+  "rich-text#nuestros-valores": {
+    "title": "Titulo Nuestros Valores",
+    "props": {
+      "text": "# NUESTROS VALORES"
+    }
+  },
+  "rich-text#nuestros-valores--list": {
+    "title": "Lista Nuestros Valores",
+    "props": {
+      "text": " * Perseguimos el WOW de nuestros clientes \n * Perseguimos el WOW de nuestros clientes \n Somos apasionados y disciplinados \n *  Somos un equipo \n *  Somos orientas a resultados"
+    }
+  }
+}
