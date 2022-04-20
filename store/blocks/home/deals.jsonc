@@ -1,5 +1,6 @@
 {
   "flex-layout.row#deals__container": {
+    "title": "Contenedor de Promesas",
     "children": [
       "flex-layout.col#deals__container"
     ],
@@ -25,7 +26,9 @@
       "horizontalAlign": "center"
     }
   },
+  //DEAL 1
   "flex-layout.col#deals-1": {
+    "title": "Contenedor Primera Promesa",
     "children": [
       "flex-layout.row#deals-1"
     ]
@@ -37,17 +40,20 @@
     ]
   },
   "image#deals-1": {
+    "title": "Imagen Primera Promesa",
     "props": {
-      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
     }
   },
   "rich-text#deals-1": {
+    "title": "Texto Primera Promesa",
     "props": {
       "text": "Entregas en \n **45min**"
     }
   },
-  //2
+  //DEAL 2
   "flex-layout.col#deals-2": {
+    "title": "Contenedor Segunda Promesa",
     "children": [
       "flex-layout.row#deals-2"
     ]
@@ -59,17 +65,20 @@
     ]
   },
   "image#deals-2": {
+    "title": "Imagen Segunda Promesa",
     "props": {
-      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
     }
   },
   "rich-text#deals-2": {
+    "title": "Texto Segunda Promesa",
     "props": {
       "text": "Compra **fácil y segura**"
     }
   },
-  // 3
+  //DEAL 3
   "flex-layout.col#deals-3": {
+    "title": "Contenedor Tercera Promesa",
     "children": [
       "flex-layout.row#deals-3"
     ]
@@ -81,17 +90,20 @@
     ]
   },
   "image#deals-3": {
+    "title": "Imagen Tercera Promesa",
     "props": {
-      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
     }
   },
   "rich-text#deals-3": {
+    "title": "Texto Tercera Promesa",
     "props": {
       "text": "Mejores precios y **ofertas**"
     }
   },
-  //4
+  //DEAL 4
   "flex-layout.col#deals-4": {
+    "title": "Contenedor Cuarta Promesa",
     "children": [
       "flex-layout.row#deals-4"
     ]
@@ -103,18 +115,21 @@
     ]
   },
   "image#deals-4": {
+    "title": "Imagen Cuarta Promesa",
     "props": {
-      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
     }
   },
   "rich-text#deals-4": {
+    "title": "Texto Cuarta Promesa",
     "props": {
       "text": "**Seguimiento** de tus pedidos"
     }
   },
 
-  //5 
+  //DEAL 5 
   "flex-layout.col#deals-5": {
+    "title": "Contenedor Quinta Promesa",
     "children": [
       "flex-layout.row#deals-5"
     ]
@@ -126,11 +141,13 @@
     ]
   },
   "image#deals-5": {
+    "title": "Imagen Quinta Promesa",
     "props": {
-      "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+      "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
     }
   },
   "rich-text#deals-5": {
+    "title": "Texto Quinta Promesa",
     "props": {
       "text": "Pago **online y contra entrega**"
     }
