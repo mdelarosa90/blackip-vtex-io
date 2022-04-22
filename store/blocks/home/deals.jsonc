@@ -37,7 +37,11 @@
     "children": [
       "image#deals-1",
       "rich-text#deals-1"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3
+    }
   },
   "image#deals-1": {
     "title": "Imagen Primera Promesa",
@@ -62,7 +66,11 @@
     "children": [
       "image#deals-2",
       "rich-text#deals-2"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3
+    }
   },
   "image#deals-2": {
     "title": "Imagen Segunda Promesa",
@@ -87,7 +95,11 @@
     "children": [
       "image#deals-3",
       "rich-text#deals-3"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3
+    }
   },
   "image#deals-3": {
     "title": "Imagen Tercera Promesa",
@@ -112,7 +124,11 @@
     "children": [
       "image#deals-4",
       "rich-text#deals-4"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3
+    }
   },
   "image#deals-4": {
     "title": "Imagen Cuarta Promesa",
@@ -138,7 +154,11 @@
     "children": [
       "image#deals-5",
       "rich-text#deals-5"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3
+    }
   },
   "image#deals-5": {
     "title": "Imagen Quinta Promesa",
