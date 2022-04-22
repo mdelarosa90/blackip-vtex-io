@@ -1,15 +1,7 @@
 {
-  "flex-layout.row#banners": {
+  "list-context.image-list#main-slider-with-video": {
     "children": [
-      "list-context.image-list#main-banner-first"
-    ],
-    "props": {
-      "fullWidth": true
-    }
-  },
-  "list-context.image-list#main-banner-first": {
-    "children": [
-      "slider-layout#main-banner"
+      "slider-layout#main-slider-with-video"
     ],
     "props": {
       "height": 720,
@@ -41,7 +33,7 @@
       ]
     }
   },
-  "slider-layout#main-banner": {
+  "slider-layout#main-slider-with-video": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -53,16 +45,14 @@
         "timeout": 3500,
         "stopOnHover": false
       },
+      "fullWidth": true,
       "blockClass": "carousel"
     },
     "children": [
-      "list-context.image-list#main-banner",
-      "link#video"
-      //"link#video"
-      
+      "list-context.image-list#main-slider-two"
     ]
   },
-  "list-context.image-list#main-banner": {
+  "list-context.image-list#main-slider-two": {
     "children": [
       "slider-layout#main-banner-images"
     ],
@@ -83,7 +73,10 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never"
-    }
+    },
+    "children": [
+      "link#video"
+    ]
   },
   "link#video": {
     "children": [

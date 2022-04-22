@@ -1,0 +1,47 @@
+{
+  "list-context.image-list#main-banner": {
+    "children": [
+      "slider-layout#main-banner"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/oY7YEDM.jpeg",
+          "description": "Category 1",
+          "width": "100%",
+          "link": {
+            "url": "/category-1"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/oY7YEDM.jpeg",
+          "description": "Category 2",
+          "width": "100%",
+          "link": {
+            "url": "/category-2"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/oY7YEDM.jpeg",
+          "description": "Category 3",
+          "width": "100%",
+          "link": {
+            "url": "/category-3"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#main-banner": {
+    "props": {
+      "itemsPerPage": 1,
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": false
+      },
+      "blockClass": "carousel"
+    }
+  }
+}
