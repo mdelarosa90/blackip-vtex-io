@@ -14,7 +14,8 @@
   background: rgb(230, 229, 229);
 }
 
-.item--vitrine-grid::marker {
+.item--vitrine-grid::marker,
+.item--brand-grid::marker {
   content: "";
   color: transparent;
 }
@@ -39,7 +40,10 @@
 }
 
 @media only screen and (max-width: 680px) {
-  .list--vitrine-grid,
+  .list--vitrine-grid{
+    grid-template-columns: 1fr;
+  }
+
   .list--brand-grid {
     grid-template-columns: 1fr;
   }

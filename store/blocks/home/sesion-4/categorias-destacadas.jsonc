@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#home__categorias-destacadas": {
+    "children": [
+      "flex-layout.col#home__categorias-destacadas"
+    ],
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#home__categorias-destacadas": {
+    "children": [
+      "rich-text#categorias-destacadas",
+      "flex-layout.row#home__categorias-destacadas-slider"
+    ]
+  },
+  "rich-text#categorias-destacadas": {
+    "props": {
+      "text": "**Categorías Destacadas**"
+    }
+  },
+  "flex-layout.row#home__categorias-destacadas-slider": {
+    "children": [
+      "slider-layout#categorias-destacadas"
+    ]
+  },
+  "slider-layout#categorias-destacadas": {
+    "children": [
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar",
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar",
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar",
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar",
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar",
+      "flex-layout.col#categoria-cuidado-facial",
+      "flex-layout.col#categoria-cuidado-capilar",
+      "flex-layout.col#categoria-proteccion-solar"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  },
+  "flex-layout.col#categoria-cuidado-facial": {
+    "children": [
+      "image#categoria-cuidado-facial",
+      "rich-text#cuidado-facial"
+    ],
+    "props": {
+      "rowGap": 4,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#categoria-cuidado-facial": {
+    "props": {
+      "src": "https://i.imgur.com/R2Nvpir.jpg"
+    }
+  },
+  "rich-text#cuidado-facial": {
+    "props": {
+      "text": "**Cuidado Facial**"
+    }
+  },
+  "flex-layout.col#categoria-cuidado-capilar": {
+    "children": [
+      "image#categoria-cuidado-capilar",
+      "rich-text#cuidado-capilar"
+    ],
+    "props": {
+      "rowGap": 4,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#categoria-cuidado-capilar": {
+    "props": {
+      "src": "https://i.imgur.com/mRUBIWe.jpg"
+    }
+  },
+  "rich-text#cuidado-capilar": {
+    "props": {
+      "text": "**Cuidado Capilar**"
+    }
+  },
+  "flex-layout.col#categoria-proteccion-solar": {
+    "children": [
+      "image#categoria-proteccion-solar",
+      "rich-text#proteccion-solar"
+    ],
+    "props": {
+      "rowGap": 4,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#categoria-proteccion-solar": {
+    "props": {
+      "src": "https://i.imgur.com/mRUBIWe.jpg"
+    }
+  },
+  "rich-text#proteccion-solar": {
+    "props": {
+      "text": "**Proteccion Solar**"
+    }
+  }
+  
+}

@@ -1,0 +1,105 @@
+{
+  "flex-layout.row#home__lo-mejor-para-tu-piel": {
+    "children": [
+      "flex-layout.col#lo-mejor-para-tu-piel-section-left",
+      "flex-layout.col#lo-mejor-para-tu-piel-section-right"
+    ],
+    "props": {
+      "blockClass": ["bgGrey"],
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#lo-mejor-para-tu-piel-section-left": {
+    "children": [
+      "rich-text#lo-mejor-para-tu-piel"
+    ],
+    "props": {
+      "width": "30%"
+    }
+  },
+  "rich-text#lo-mejor-para-tu-piel": {
+    "props": {
+      "text":  "### Lo mejor para tu piel \n Dermocosmetica"
+    }
+  },
+  "flex-layout.col#lo-mejor-para-tu-piel-section-right": {
+    "children": [
+      "list-context.image-list#dermosmetica-images"
+    ]
+  },
+  "list-context.image-list#dermosmetica-images": {
+    "title": "Main Banners Dermocosmetica",
+    "children": [
+      "slider-layout#dermosmetica-images"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/kLD60Ny.jpeg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-1"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/vmzoyCd.jpg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-2"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/i9fSgqT.jpg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-3"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/kLD60Ny.jpeg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-1"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/vmzoyCd.jpg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-2"
+          }
+        },
+        {
+          "image": "https://i.imgur.com/i9fSgqT.jpg",
+          "description": "something something",
+          "width": "100%",
+          "link": {
+            "url": "/piel-3"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#dermosmetica-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": false
+      },
+      "showPaginationDots": false,
+      "blockClass": "carousel"
+    }
+  }
+}

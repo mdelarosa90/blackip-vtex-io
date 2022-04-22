@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#pavo-dorado__container--mobile": {
+    "children": [
+      "flex-layout.col#pavo-dorado__content-mobile"
+    ]
+  },
+  "flex-layout.col#pavo-dorado__content-mobile": {
+    "children": [
+      "image#pavo-dorado",
+      "rich-text#pavo-dorado__title",
+      "rich-text#pavo-dorado__description"
+    ]
+  }
+}
