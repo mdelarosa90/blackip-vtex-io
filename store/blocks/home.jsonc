@@ -1,9 +1,7 @@
 {
     "store.home": {
         "blocks": [
-          "list-context.product-list#vitrine-slider",
-          "list-context.product-list#vitrine",
-          "list-context.image-list#brand-images"
+          "list-context.product-list#vitrine-slider"
         ]
     }
 }
