@@ -1,11 +1,11 @@
 {
   "list-context.image-list#brand-images": {
-    "title": "Brand Banner Images",
+    "title": "Brand List Banner Images",
     "children": [
       "list-context-renderer#brand-images"
     ],
     "props": {
-      "height": 420,
+      "height": 700,
       "images": [
         {
           "image": "https://i.imgur.com/5TKycho.jpg",
@@ -69,8 +69,8 @@
   "list-context-renderer#brand-images": {
     "title": "Renderer Images",
     "props": {
-      "listElement": "ul",
-      "itemElement": "li",
+      "listElement": "div",
+      "itemElement": "div",
       "blockClass": ["brand-grid"]
     }
   }

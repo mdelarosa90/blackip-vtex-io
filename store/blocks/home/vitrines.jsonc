@@ -1,15 +1,12 @@
 {
-  "list-context.product-list#vitrine-slider": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout"]
-  },
-
   "list-context.product-list#vitrine": {
+    "title": "Vitrina de Productos",
     "blocks": ["product-summary.shelf"],
     "children": ["list-context-renderer#vitrine"]
   },
 
   "list-context-renderer#vitrine": {
+    "title": "Renderer de Vitrina",
     "props": {
       "listElement": "ul",
       "itemElement": "li",
