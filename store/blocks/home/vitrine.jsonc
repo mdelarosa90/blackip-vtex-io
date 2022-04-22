@@ -1,5 +1,6 @@
 {
   "list-context.product-list#vitrine-slider": {
+    "title": "Vitrina de productos",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#vitrine"]
   },
