@@ -1,10 +1,7 @@
 {
-  "list-context.product-list#vitrine-slider": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout"]
-  },
 
   "list-context.product-list#vitrine": {
+    "title": "Grilla de Productos",
     "blocks": ["product-summary.shelf"],
     "children": ["list-context-renderer#vitrine"]
   },
