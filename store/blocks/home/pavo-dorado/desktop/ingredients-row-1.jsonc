@@ -1,81 +1,114 @@
 {
-  "flex-layout.row#pavo-dorado__ingredients": {
+  "flex-layout.row#pavo-dorado__ingredients--row-1": {
+    "title": "Contenedor Datos Receta Desktop Fila 1",
     "children": [
       "flex-layout.col#pavo-dorado__ingredients--minutos",
       "flex-layout.col#pavo-dorado__ingredients--ingredientes",
       "flex-layout.col#pavo-dorado__ingredients--chef"
-    ]
+    ],
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 5
+    }
   },
+
+  // TIEMPO
   "flex-layout.col#pavo-dorado__ingredients--minutos": {
+    "title": "Columna Minutos",
     "children": [
       "flex-layout.row#pavo-dorado__ingredients--minutos"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "flex-layout.row#pavo-dorado__ingredients--minutos": {
+    "title": "Fila Minutos",
     "children": [
       "image#pavo-dorado__ingredients--minutos",
       "rich-text#pavo-dorado__ingredients--minutos"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
   "image#pavo-dorado__ingredients--minutos": {
+    "title": "Imagen Minutos",
     "props": {
       "src": "https://imgur.com/RWj3DiZ.png"
     }
   },
   "rich-text#pavo-dorado__ingredients--minutos": {
+    "title": "Texto Minutos",
     "props": {
       "text": "60 minutos"
     }
   },
 
+  //INGREDIENTES
   "flex-layout.col#pavo-dorado__ingredients--ingredientes": {
+    "title": "Contenedor Ingredientes",
     "children": [
       "flex-layout.row#pavo-dorado__ingredients--ingredientes"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "flex-layout.row#pavo-dorado__ingredients--ingredientes": {
+    "title": "Fila Ingredientes",
     "children": [
       "image#pavo-dorado__ingredients--ingredientes",
       "rich-text#pavo-dorado__ingredients--ingredientes"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
   "image#pavo-dorado__ingredients--ingredientes": {
+    "title": "Imagen Ingredientes",
     "props": {
-      "src": "https://imgur.com/YU224Ni"
+      "src": "https://i.imgur.com/YU224Ni.png"
     }
   },
   "rich-text#pavo-dorado__ingredients--ingredientes": {
+    "title": "Texto Ingredientes",
     "props": {
       "text": "8 ingredientes"
     }
   },
 
+  // CHEF
   "flex-layout.col#pavo-dorado__ingredients--chef": {
+    "title": "Columna Nivel Chef",
     "children": [
       "flex-layout.row#pavo-dorado__ingredients--chef"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "flex-layout.row#pavo-dorado__ingredients--chef": {
+    "title": "Fila Nivel Chef",
     "children": [
       "image#pavo-dorado__ingredients--chef",
       "rich-text#pavo-dorado__ingredients--chef"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
   "image#pavo-dorado__ingredients--chef": {
+    "title": "Imagen Nivel Chef",
     "props": {
       "src": "https://imgur.com/EvjGjXS.png"
     }
   },
   "rich-text#pavo-dorado__ingredients--chef": {
+    "title": "Texto Nivel Chef",
     "props": {
       "text": "Nivel: principiante"
     }

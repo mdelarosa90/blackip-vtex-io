@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#pavo-dorado__ingredients--row-mobile-2": {
+    "title": "Contenedor Datos Receta Mobile Fila 2",
+    "children": [
+      "flex-layout.col#pavo-dorado__ingredients--chef",
+      "flex-layout.col#pavo-dorado__ingredients--comensales"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "marginTop": 5,
+      "marginBottom": 5
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#pavo-dorado__ingredients--row-2": {
+    "title": "Contenedor Datos Receta Desktop Fila 2",
+    "children": [
+      "flex-layout.col#pavo-dorado__ingredients--comensales",
+      "flex-layout.col#pavo-dorado__ingredients--ofertas",
+      "flex-layout.col#pavo-dorado__ingredients--ubicacion"
+    ]
+  },
+  // COMENSALES
+  "flex-layout.col#pavo-dorado__ingredients--comensales": {
+    "title": "Contenedor Comensales",
+    "children": [
+      "flex-layout.row#pavo-dorado__ingredients--comensales"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#pavo-dorado__ingredients--comensales": {
+    "title": "Fila Comensales",
+    "children": [
+      "image#pavo-dorado__ingredients--comensales",
+      "rich-text#pavo-dorado__ingredients--comensales"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#pavo-dorado__ingredients--comensales": {
+    "title": "Imagen Comensales",
+    "props": {
+      "src": "https://i.imgur.com/9V8uyXo.png"
+    }
+  },
+  "rich-text#pavo-dorado__ingredients--comensales": {
+    "title": "Texto Comensales",
+    "props": {
+      "text": "4 a 6 comensales"
+    }
+  },
+    // OFERTAS
+  "flex-layout.col#pavo-dorado__ingredients--ofertas": {
+    "title": "Contenedor Ofertas",
+    "children": [
+      "flex-layout.row#pavo-dorado__ingredients--ofertas"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#pavo-dorado__ingredients--ofertas": {
+    "title": "Fila Ofertas",
+    "children": [
+      "image#pavo-dorado__ingredients--ofertas",
+      "rich-text#pavo-dorado__ingredients--ofertas"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#pavo-dorado__ingredients--ofertas": {
+    "title": "Imagen Ofertas",
+    "props": {
+      "src": "https://i.imgur.com/xx4LO0k.png"
+    }
+  },
+  "rich-text#pavo-dorado__ingredients--ofertas": {
+    "title": "Texto Ofertas",
+    "props": {
+      "text": "S/1200 - S/1480"
+    }
+  },
+
+  // UBICACIÓN
+  "flex-layout.col#pavo-dorado__ingredients--ubicacion": {
+    "title": "Contenedor Ubicacion",
+    "children": [
+      "flex-layout.row#pavo-dorado__ingredients--ubicacion"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#pavo-dorado__ingredients--ubicacion": {
+    "title": "Fila Ubicacion",
+    "children": [
+      "image#pavo-dorado__ingredients--ubicacion",
+      "rich-text#pavo-dorado__ingredients--ubicacion"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#pavo-dorado__ingredients--ubicacion": {
+    "title": "Imagen Ubicacion",
+    "props": {
+      "src": "https://i.imgur.com/IhKo5Rc.png"
+    }
+  },
+  "rich-text#pavo-dorado__ingredients--ubicacion": {
+    "title": "Texto Ubicacion",
+    "props": {
+      "text": "País: Perú"
+    }
+  }
+}
