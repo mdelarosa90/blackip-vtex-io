@@ -35,11 +35,7 @@
   },
   "slider-layout#main-slider-with-video": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
+      "itemsPerPage":1,
       "infinite": true,
       "autoplay": {
         "timeout": 3500,
@@ -47,32 +43,6 @@
       },
       "fullWidth": true,
       "blockClass": "carousel"
-    },
-    "children": [
-      "list-context.image-list#main-slider-two"
-    ]
-  },
-  "list-context.image-list#main-slider-two": {
-    "children": [
-      "slider-layout#main-banner-images"
-    ],
-    "title": "Banners Principales",
-    "props": {
-      "preload": false,
-      "height": 720,
-      "images": []
-    }
-  },
-  "slider-layout#main-banner-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never"
     },
     "children": [
       "link#video"
@@ -94,7 +64,7 @@
       "autoPlay": true,
       "muted": false,
       "playsInline": true,
-      //"poster": "https://www.errepar.com/resources/NuevoPortalERREIUS/Img/NotaOpinion/760x320/210.jpg",
+      "poster": "https://www.errepar.com/resources/NuevoPortalERREIUS/Img/NotaOpinion/760x320/210.jpg",
       "src": "https://blacksip.com/imgload/Forus-UY/videos/V%C3%ADdeo-intervenci%C3%B3n-botas.mp4",
       "blockClass": "videoEl"
     }
