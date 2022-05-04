@@ -1,0 +1,22 @@
+.drawerHeader--header-drawer {
+  background: #000;
+}
+
+.drawerHeader--header-drawer :global(.vtex-rich-text-0-x-paragraph) {
+  color: white;
+}
+
+.drawerHeader--header-drawer :local(svg) {
+  display: none;
+}
+
+.drawerHeader--header-drawer .closeIconButton {
+  transform: scaleX(-1);
+}
+
+.drawerHeader--header-drawer .closeIconButton::before {
+  content: url("https://i.imgur.com/r1VYUKc.png");
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1);
+}

@@ -1,0 +1,60 @@
+{
+  "drawer#hombre": {
+    "title": "hombre Drawer",
+    "blocks": [
+      "drawer-trigger#hombre",
+      "drawer-header#hombre-drawer"
+    ],
+    "children": [
+      "image#guia-de-tallas--hombre"
+    ],
+    "props": {
+      "isFullWidth": true
+    }
+  },
+  "drawer-header#hombre-drawer": {
+    "title": "Header Hombre Drawer",
+    "children": [
+      "drawer-close-button",
+      "rich-text#guia-de-tallas--hombre"
+    ],
+    "props": {
+      "blockClass": ["header-drawer"]
+    }
+  },
+  "drawer-trigger#hombre": {
+    "children": [
+      "flex-layout.row#hombre-menu"
+    ]
+  },
+  "rich-text#guia-de-tallas--hombre": {
+    "title": "Texto Guia de Tallas Hombre",
+    "props": {
+      "text": "Guia de Tallas Hombre"
+    }
+  },
+  "flex-layout.row#hombre-menu": {
+    "children": [
+      "rich-text#hombre",
+      "image#icon-menu"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": ["items-center"]
+    }
+  },
+  "rich-text#hombre": {
+    "title": "Hombre",
+    "props": {
+      "text": "Hombre"
+    }
+  },
+  "image#guia-de-tallas--hombre": {
+    "title": "Imagen Guia de Tallas Hombre",
+    "props": {
+      "src": "https://i.imgur.com/HLLiO8N.jpeg"
+    }
+  }
+}
