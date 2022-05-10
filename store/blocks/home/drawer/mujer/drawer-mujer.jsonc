@@ -46,7 +46,7 @@
     }
   },
   "rich-text#mujer": {
-    "title": "mujer",
+    "title": "texto mujer",
     "props": {
       "text": "Mujer"
     }
