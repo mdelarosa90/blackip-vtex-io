@@ -1,0 +1,53 @@
+{
+  "vtex.menu@2.x:submenu#department-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-1"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    }
+  },
+  "vtex.menu@2.x:menu#department-1": {
+    "children": [
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": ["submenu-container"]
+    }
+  },
+  "flex-layout.row#menu-categorias": {
+    "children": [
+      "flex-layout.col#menu-categorias"
+    ]
+  },
+  "flex-layout.col#menu-categorias": {
+    "children": [
+      "rich-text#categoria",
+      "rich-text#subcategoria",
+      "rich-text#subcategoria"
+    ]
+  },
+  "rich-text#categoria": {
+    "props": {
+      "text": "**Categoria**"
+    }
+  },
+  "rich-text#subcategoria": {
+    "props": {
+      "text": "Subcategoria"
+    }
+  }
+}

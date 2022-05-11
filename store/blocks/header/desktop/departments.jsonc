@@ -1,0 +1,135 @@
+{
+  "vtex.menu@2.x:menu#departments": {
+    "children": [
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3",
+      "menu-item#department-4",
+      "menu-item#department-5",
+      "menu-item#department-6",
+      "menu-item#department-7"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "menu-item#department-1": {
+    "props": {
+      "id": "menu-item-department-1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 1",
+        "text": "department 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-1"
+    ]
+  },
+  "menu-item#department-2": {
+    "props": {
+      "id": "menu-item-department-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 2",
+        "text": "department 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-2"
+    ]
+  },
+  "menu-item#department-3": {
+    "props": {
+      "id": "menu-item-department-3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 3",
+        "text": "department 3"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-3"
+    ]
+  },
+  "menu-item#department-4": {
+    "props": {
+      "id": "menu-item-department-4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 4",
+        "text": "department 4"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-4"
+    ]
+  },
+  "menu-item#department-5": {
+    "props": {
+      "id": "menu-item-department-5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 5",
+        "text": "department 5"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-5"
+    ]
+  },
+  "menu-item#department-6": {
+    "props": {
+      "id": "menu-item-department-6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 6",
+        "text": "department 6"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-6"
+    ]
+  },
+  "menu-item#department-7": {
+    "props": {
+      "id": "menu-item-department-7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department 7",
+        "text": "department 7"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-7"
+    ]
+  }
+}

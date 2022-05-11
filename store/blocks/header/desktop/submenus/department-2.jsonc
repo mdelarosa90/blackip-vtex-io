@@ -1,0 +1,32 @@
+{
+  "vtex.menu@2.x:submenu#department-2": {
+    "children": [
+      "vtex.menu@2.x:menu#department-2"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    }
+  },
+  "vtex.menu@2.x:menu#department-2": {
+    "children": [
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias",
+      "flex-layout.row#menu-categorias"
+
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": ["submenu-container"]
+    }
+  }
+}

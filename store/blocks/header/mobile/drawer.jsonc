@@ -1,0 +1,58 @@
+{
+  "drawer#deparments": {
+    "title": "Departamentos Drawer",
+    "blocks": [
+      "drawer-header#deparments",
+      "drawer-trigger#deparments"
+    ],
+    "children": [
+      "flex-layout.row#deparments-container"
+    ],
+    "props": {
+      "isFullWidth": true
+    }
+  },
+  "flex-layout.row#deparments-container": {
+    "children": [
+      "flex-layout.col#deparments-container"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["w-100"]
+    }
+  },
+  "flex-layout.col#deparments-container": {
+    "children": [
+      "drawer#department-1"
+    ]
+  },
+  "drawer-header#deparments": {
+    "title": "Header Departamentos Drawer",
+    "children": [
+      "drawer-close-button",
+      "rich-text#deparments"
+    ],
+    "props": {
+      "blockClass": ["header-drawer"]
+    }
+  },
+  "drawer-trigger#deparments": {
+    "children": [
+      "rich-text#deparments"
+    ]
+  },
+  "rich-text#deparments": {
+    "title": "Departamentos Texto",
+    "props": {
+      "text": "Departamentos"
+    }
+  },
+  "image#icon-menu": {
+    "title": "Open Icon Menu Image",
+    "props": {
+      "src": "https://i.imgur.com/r1VYUKc.png",
+      "height": 10,
+      "width": 10
+    }
+  }
+}

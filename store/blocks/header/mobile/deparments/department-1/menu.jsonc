@@ -1,0 +1,65 @@
+{
+  "vtex.menu@2.x:menu#department-1--mobile": {
+    "children": [
+      "menu-item#department-1--categoria-1"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department-1--categoria-1": {
+    "props": {
+      "id": "menu-item-department-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#department-1-category"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#department-1-category": {
+    "children": [
+      "vtex.menu@2.x:menu#categorias-1"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#categorias-1": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Shop",
+            "text": "Shop"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-us",
+            "text": "About Us"
+          }
+        }
+      ]
+    }
+  }
+}
