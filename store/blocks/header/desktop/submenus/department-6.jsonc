@@ -10,18 +10,18 @@
   },
   "vtex.menu@2.x:menu#department-6": {
     "children": [
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias",
-      "flex-layout.row#menu-categorias"
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1",
+      "menu#category-1"
     ],
     "props": {
       "width": "100%",

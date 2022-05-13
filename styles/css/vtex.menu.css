@@ -3,3 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
 }
+
+.menuContainerNav--w-100 {
+  width: 100%;
+}

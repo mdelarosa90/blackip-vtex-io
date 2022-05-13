@@ -2,8 +2,7 @@
   "drawer#deparments": {
     "title": "Departamentos Drawer",
     "blocks": [
-      "drawer-header#deparments",
-      "drawer-trigger#deparments"
+      "drawer-header#deparments"
     ],
     "children": [
       "flex-layout.row#deparments-container"
@@ -18,12 +17,15 @@
     ],
     "props": {
       "fullWidth": true,
-      "blockClass": ["w-100"]
+      "blockClass": [
+        "w-100"
+      ]
     }
   },
   "flex-layout.col#deparments-container": {
     "children": [
-      "drawer#department-1"
+      "drawer#department-1",
+      "flex-layout.row#drawer-footer"
     ]
   },
   "drawer-header#deparments": {
@@ -33,13 +35,10 @@
       "rich-text#deparments"
     ],
     "props": {
-      "blockClass": ["header-drawer"]
+      "blockClass": [
+        "header-drawer"
+      ]
     }
-  },
-  "drawer-trigger#deparments": {
-    "children": [
-      "rich-text#deparments"
-    ]
   },
   "rich-text#deparments": {
     "title": "Departamentos Texto",
@@ -53,6 +52,44 @@
       "src": "https://i.imgur.com/r1VYUKc.png",
       "height": 10,
       "width": 10
+    }
+  },
+  "flex-layout.row#drawer-footer": {
+    "children": [
+      "login",
+      "menu#menu-favorites"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "menu#menu-favorites": {
+    "children": [
+      "menu-item#favorites"
+    ]
+  },
+  "menu-item#favorites": {
+    "props": {
+      "type": "custom",
+      "iconPosition": "left",
+      "blockClass": [
+        "favorites"
+      ],
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 24,
+        "viewBox": "0 0 24 24"
+      },
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/wishlist",
+        "noFollow": false,
+        "tagTitle": "Favoritos",
+        "text": "FAVORITOS"
+      }
     }
   }
 }

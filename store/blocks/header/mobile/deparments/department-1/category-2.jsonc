@@ -1,0 +1,19 @@
+{
+  "menu-item#department-1--category-2": {
+    "props": {
+      "id": "menu-item-department-1-category-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department-1-subcategory"
+    ]
+  }
+}

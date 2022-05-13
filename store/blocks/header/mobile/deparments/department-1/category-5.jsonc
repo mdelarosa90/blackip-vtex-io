@@ -1,0 +1,19 @@
+{
+  "menu-item#department-1--category-5": {
+    "props": {
+      "id": "menu-item-department-1-category-5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 5",
+        "text": "Categoria 5"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department-1-subcategory"
+    ]
+  }
+}

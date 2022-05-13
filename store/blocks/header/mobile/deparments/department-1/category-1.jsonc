@@ -1,0 +1,55 @@
+{
+  "menu-item#department-1--category-1": {
+    "props": {
+      "id": "menu-item-department-1-category-1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department-1-subcategory"
+    ]
+  },
+  "submenu.accordion#department-1-subcategory": {
+    "children": [
+      "menu#subcategory"
+    ]
+  },
+  "menu#subcategory": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-subcategory-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategory-1",
+            "noFollow": false,
+            "tagTitle": "Subcategoria",
+            "text": "Subcategoria"
+          }
+        },
+        {
+          "id": "menu-subcategory-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategory-2",
+            "noFollow": false,
+            "tagTitle": "Subcategoria",
+            "text": "Subcategoria"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -32,9 +32,7 @@
   },
   "header-row#mobile-1": {
     "children": [
-      "drawer#deparments",
-      "header-spacer",
-      "login"
+      "drawer#deparments"
     ]
   }
 }
