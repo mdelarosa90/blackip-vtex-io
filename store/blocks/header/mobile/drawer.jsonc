@@ -18,15 +18,24 @@
     "props": {
       "fullWidth": true,
       "blockClass": [
-        "w-100"
+        "w-100", "h-100"
       ]
     }
   },
   "flex-layout.col#deparments-container": {
     "children": [
       "drawer#department-1",
+      "drawer#department-2",
+      "drawer#department-3",
+      "drawer#department-4",
+      "drawer#department-5",
+      "drawer#department-6",
+      "drawer#department-7",
       "flex-layout.row#drawer-footer"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "drawer-header#deparments": {
     "title": "Header Departamentos Drawer",

@@ -2,6 +2,19 @@
   width: 100%;
 }
 
+.flexRowContent--h-100 {
+  height: 100%;
+}
+
+.flexRow--h-100 .stretchChildrenWidth{
+  height: 100%;
+}
+
 .flexRowContent--items-center {
   align-items: center;
+}
+
+.flexRow--spacer-block {
+  display: flex;
+  flex-grow: 1
 }

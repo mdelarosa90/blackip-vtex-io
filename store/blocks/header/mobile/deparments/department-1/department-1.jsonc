@@ -2,8 +2,7 @@
   "drawer#department-1": {
     "title": "department-1 Drawer",
     "blocks": [
-      "drawer-trigger#department-1",
-      "drawer-header#department-1-drawer"
+      "drawer-trigger#department-1"
     ],
     "children": [
       "vtex.menu@2.x:menu#department-1--mobile"
@@ -27,12 +26,6 @@
       "flex-layout.row#department-1-menu"
     ]
   },
-  "rich-text#guia-de-tallas--department-1": {
-    "title": "Texto department-1",
-    "props": {
-      "text": "department-1"
-    }
-  },
   "flex-layout.row#department-1-menu": {
     "children": [
       "rich-text#department-1-trigger",
@@ -48,7 +41,7 @@
   "rich-text#department-1-trigger": {
     "title": "department-1-trigger",
     "props": {
-      "text": "department-1-trigger"
+      "text": "**Departamento 1**"
     }
   },
   "image#department-1": {

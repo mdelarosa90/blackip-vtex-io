@@ -1,0 +1,37 @@
+{
+  "drawer#department-4": {
+    "title": "department-4 Drawer",
+    "blocks": [
+      "drawer-trigger#department-4"
+    ],
+    "children": [
+      "menu#department-4--mobile"
+    ],
+    "props": {
+      "isFullWidth": true
+    }
+  },
+  "drawer-trigger#department-4": {
+    "children": [
+      "flex-layout.row#department-4-menu"
+    ]
+  },
+  "flex-layout.row#department-4-menu": {
+    "children": [
+      "rich-text#department-4-trigger",
+      "image#icon-menu"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": ["items-center"]
+    }
+  },
+  "rich-text#department-4-trigger": {
+    "title": "department-4-trigger",
+    "props": {
+      "text": "**Departamento 4**"
+    }
+  }
+}

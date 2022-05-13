@@ -1,22 +1,24 @@
-.drawerHeader--header-drawer {
-  background: #000;
+.closeIconButton--back-button {
+  display: flex;
+  align-items: center;
 }
 
-.drawerHeader--header-drawer :global(.vtex-rich-text-0-x-paragraph) {
-  color: white;
-}
-
-.drawerHeader--header-drawer :local(svg) {
-  display: none;
-}
-
-.drawerHeader--header-drawer .closeIconButton {
-  transform: scaleX(-1);
-}
-
-.drawerHeader--header-drawer .closeIconButton::before {
+.closeIconButton--back-button::before {
   content: url("https://i.imgur.com/r1VYUKc.png");
-  width: 25px;
-  height: 25px;
-  filter: brightness(0) invert(1);
+  transform: scaleX(-1) scale(1.4);
+  margin-right: 1rem;
+}
+
+.drawerContent {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.openIconContainer {
+  padding: 0.25em 0.5em;
+}
+
+.openIconContainer :local(p) {
+  margin: 0
 }

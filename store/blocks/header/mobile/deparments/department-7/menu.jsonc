@@ -1,7 +1,7 @@
 {
-  "vtex.menu@2.x:menu#department-1--mobile": {
+  "menu#department-7--mobile": {
     "children": [
-      "flex-layout.row#department-1--back",
+      "flex-layout.row#department-7--back",
       "menu-item#department-1--category-1",
       "menu-item#department-1--category-2",
       "menu-item#department-1--category-3",
@@ -15,23 +15,23 @@
       "blockClass": ["w-100"]
     }
   },
-  "flex-layout.row#department-1--back": {
+  "flex-layout.row#department-7--back": {
     "children": [
-      "drawer-close-button#back"
+      "drawer-close-button#back--department-7"
     ],
     "props": {
       "preserveLayoutOnMobile": true
     }
   },
-  "rich-text#guia-de-tallas--department-1": {
-    "title": "Texto department-1",
+  "rich-text#guia-de-tallas--department-7": {
+    "title": "Texto department-7",
     "props": {
-      "text": "Departamento 1"
+      "text": "Departamento 7"
     }
   },
-  "drawer-close-button#back": {
+  "drawer-close-button#back--department-7": {
     "props": {
-      "text": "Departamento 1",
+      "text": "Departamento 7",
       "blockClass": ["back-button"]
     }
   }
