@@ -23,13 +23,8 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "rich-text#guia-de-tallas--department-4": {
-    "title": "Texto department-4",
-    "props": {
-      "text": "Departamento 4"
-    }
-  },
   "drawer-close-button#back--department-4": {
+    "title": "Close button department 4",
     "props": {
       "text": "Departamento 4",
       "blockClass": ["back-button"]

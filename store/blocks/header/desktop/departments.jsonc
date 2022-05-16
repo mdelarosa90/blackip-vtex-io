@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#departments": {
+    "title": "Menu Departamentos Desktop",
     "children": [
       "menu-item#department-1",
       "menu-item#department-2",
@@ -14,16 +15,17 @@
     }
   },
   "menu-item#department-1": {
+    "title": "Menu departamento 1",
     "props": {
       "id": "menu-item-department-1",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 1",
-        "text": "department 1"
+        "tagTitle": "Departamento 1",
+        "text": "Departamento 1"
       }
     },
     "blocks": [
@@ -31,16 +33,17 @@
     ]
   },
   "menu-item#department-2": {
+    "title": "Menu departamento 2",
     "props": {
       "id": "menu-item-department-2",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 2",
-        "text": "department 2"
+        "tagTitle": "Departamento 2",
+        "text": "Departamento 2"
       }
     },
     "blocks": [
@@ -48,16 +51,17 @@
     ]
   },
   "menu-item#department-3": {
+    "title": "Menu departamento 3",
     "props": {
       "id": "menu-item-department-3",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 3",
-        "text": "department 3"
+        "tagTitle": "Departamento 3",
+        "text": "Departamento 3"
       }
     },
     "blocks": [
@@ -65,16 +69,17 @@
     ]
   },
   "menu-item#department-4": {
+    "title": "Menu departamento 4",
     "props": {
       "id": "menu-item-department-4",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 4",
-        "text": "department 4"
+        "tagTitle": "Departamento 4",
+        "text": "Departamento 4"
       }
     },
     "blocks": [
@@ -82,16 +87,17 @@
     ]
   },
   "menu-item#department-5": {
+    "title": "Menu departamento 5",
     "props": {
       "id": "menu-item-department-5",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 5",
-        "text": "department 5"
+        "tagTitle": "Departamento 5",
+        "text": "Departamento 5"
       }
     },
     "blocks": [
@@ -99,16 +105,17 @@
     ]
   },
   "menu-item#department-6": {
+    "title": "Menu departamento 6",
     "props": {
       "id": "menu-item-department-6",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 6",
-        "text": "department 6"
+        "tagTitle": "Departamento 6",
+        "text": "Departamento 6"
       }
     },
     "blocks": [
@@ -116,16 +123,17 @@
     ]
   },
   "menu-item#department-7": {
+    "title": "Menu departamento 7",
     "props": {
       "id": "menu-item-department-7",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "department 7",
-        "text": "department 7"
+        "tagTitle": "Departamento 7",
+        "text": "Departamento 7"
       }
     },
     "blocks": [

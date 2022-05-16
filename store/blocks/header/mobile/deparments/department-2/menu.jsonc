@@ -23,13 +23,8 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "rich-text#guia-de-tallas--department-2": {
-    "title": "Texto department-2",
-    "props": {
-      "text": "Departamento 2"
-    }
-  },
   "drawer-close-button#back--department-2": {
+    "title": "Close button department 2",
     "props": {
       "text": "Departamento 2",
       "blockClass": ["back-button"]

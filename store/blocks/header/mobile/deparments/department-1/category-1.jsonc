@@ -1,9 +1,10 @@
 {
   "menu-item#department-1--category-1": {
+    "title": "Menu Categoria 1",
     "props": {
       "id": "menu-item-department-1-category-1",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -17,11 +18,13 @@
     ]
   },
   "submenu.accordion#department-1-subcategory": {
+    "title": "Submenu Categorias",
     "children": [
       "menu#subcategory"
     ]
   },
   "menu#subcategory": {
+    "title": "Menu Subcategories",
     "props": {
       "orientation": "vertical",
       "items": [
@@ -44,6 +47,18 @@
           "itemProps": {
             "type": "internal",
             "href": "/subcategory-2",
+            "noFollow": false,
+            "tagTitle": "Subcategoria",
+            "text": "Subcategoria"
+          }
+        },
+        {
+          "id": "menu-subcategory-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategory-3",
             "noFollow": false,
             "tagTitle": "Subcategoria",
             "text": "Subcategoria"

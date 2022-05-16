@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:submenu#department-6": {
+    "title": "Submenu Departamento 6",
     "children": [
       "vtex.menu@2.x:menu#department-6"
     ],

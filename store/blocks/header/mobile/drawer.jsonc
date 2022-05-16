@@ -24,14 +24,28 @@
   },
   "flex-layout.col#deparments-container": {
     "children": [
+      "flex-layout.row#drawer-department-menus",
+      "flex-layout.row#drawer-footer"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["justify-between"]
+    }
+  },
+  "flex-layout.row#drawer-department-menus": {
+    "children": [
+      "flex-layout.col#drawer-deparment-menus"
+    ]
+  },
+  "flex-layout.col#drawer-deparment-menus": {
+    "children": [
       "drawer#department-1",
       "drawer#department-2",
       "drawer#department-3",
       "drawer#department-4",
       "drawer#department-5",
       "drawer#department-6",
-      "drawer#department-7",
-      "flex-layout.row#drawer-footer"
+      "drawer#department-7"
     ],
     "props": {
       "preventVerticalStretch": true
@@ -64,22 +78,27 @@
     }
   },
   "flex-layout.row#drawer-footer": {
+    "title": "Fila Mi Cuenta / Mis Favoritos",
     "children": [
       "login",
       "menu#menu-favorites"
     ],
     "props": {
+      "marginBottom": 5,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": ["row-footer"]
     }
   },
   "menu#menu-favorites": {
+    "title": "Menu mis Favoritos",
     "children": [
       "menu-item#favorites"
     ]
   },
   "menu-item#favorites": {
+    "title": "Item Mis Favoritos",
     "props": {
       "type": "custom",
       "iconPosition": "left",
@@ -88,16 +107,15 @@
       ],
       "iconProps": {
         "id": "mpa-heart",
-        "size": 24,
-        "viewBox": "0 0 24 24"
+        "size": 18
       },
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/wishlist",
         "noFollow": false,
-        "tagTitle": "Favoritos",
-        "text": "FAVORITOS"
+        "tagTitle": "Mis Favoritos",
+        "text": "Mis Favoritos"
       }
     }
   }

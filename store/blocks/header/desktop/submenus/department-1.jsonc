@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:submenu#department-1": {
+    "title": "Submenu departamento 1",
     "children": [
       "vtex.menu@2.x:menu#department-1"
     ],
@@ -31,7 +32,7 @@
     }
   },
   "menu#category-1": {
-    "title": "Categoría 1",
+    "title": "Menu Categoría 1",
     "props": {
       "orientation": "vertical",
       "items": [

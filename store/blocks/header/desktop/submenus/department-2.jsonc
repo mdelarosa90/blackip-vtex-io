@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:submenu#department-2": {
+    "title": "Submenu departamento 2",
     "children": [
       "vtex.menu@2.x:menu#department-2"
     ],
@@ -9,6 +10,7 @@
     }
   },
   "vtex.menu@2.x:menu#department-2": {
+    "title": "Menu contenedor Departamento 2",
     "children": [
       "menu#category-1",
       "menu#category-1",

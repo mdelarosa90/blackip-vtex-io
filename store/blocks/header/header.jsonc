@@ -12,6 +12,7 @@
     ]
   },
   "header-layout.desktop": {
+    "title": "Header Desktop",
     "children": [
       "header-row#1-desktop"
     ]
@@ -26,6 +27,7 @@
   
   // MOBILE
   "header-layout.mobile": {
+    "title": "Header Mobile",
     "children": [
       "header-row#mobile-1"
     ]

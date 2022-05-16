@@ -1,9 +1,10 @@
 {
   "menu-item#department-1--category-4": {
+    "title": "Menu Categoria 4",
     "props": {
       "id": "menu-item-department-1-category-4",
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",

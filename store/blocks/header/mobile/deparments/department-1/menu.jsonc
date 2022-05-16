@@ -1,5 +1,6 @@
 {
-  "vtex.menu@2.x:menu#department-1--mobile": {
+  "menu#department-1--mobile": {
+    "title": "Menu Departamento 1 Mobile",
     "children": [
       "flex-layout.row#department-1--back",
       "menu-item#department-1--category-1",
@@ -23,13 +24,8 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "rich-text#guia-de-tallas--department-1": {
-    "title": "Texto department-1",
-    "props": {
-      "text": "Departamento 1"
-    }
-  },
   "drawer-close-button#back": {
+    "title": "Close Button Departamento 1",
     "props": {
       "text": "Departamento 1",
       "blockClass": ["back-button"]

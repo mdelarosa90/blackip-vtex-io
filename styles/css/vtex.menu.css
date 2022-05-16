@@ -7,3 +7,32 @@
 .menuContainerNav--w-100 {
   width: 100%;
 }
+
+.styledLink--highlight {
+  font-weight: bold;
+}
+
+/** FAVORITOS**/
+
+.menuItem--favorites {
+  background-color: #000;
+  border-radius: 0 30px 30px 0;
+}
+
+.styledLinkContainer--favorites {
+  min-height: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.styledLink--favorites {
+  color: white;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+.styledLinkContent--favorites {
+  display: flex;
+  align-items: center;
+}
+

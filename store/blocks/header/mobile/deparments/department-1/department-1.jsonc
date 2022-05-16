@@ -5,20 +5,10 @@
       "drawer-trigger#department-1"
     ],
     "children": [
-      "vtex.menu@2.x:menu#department-1--mobile"
+      "menu#department-1--mobile"
     ],
     "props": {
       "isFullWidth": true
-    }
-  },
-  "drawer-header#department-1-drawer": {
-    "title": "Header department-1 Drawer",
-    "children": [
-      "drawer-close-button",
-      "rich-text#guia-de-tallas--department-1"
-    ],
-    "props": {
-      "blockClass": ["header-drawer"]
     }
   },
   "drawer-trigger#department-1": {
@@ -42,12 +32,6 @@
     "title": "department-1-trigger",
     "props": {
       "text": "**Departamento 1**"
-    }
-  },
-  "image#department-1": {
-    "title": "Imagen Guia de Tallas Hombre",
-    "props": {
-      "src": "https://i.imgur.com/HLLiO8N.jpeg"
     }
   }
 }
