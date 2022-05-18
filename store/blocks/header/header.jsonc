@@ -14,15 +14,33 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
-      "header-row#1-desktop"
+      "header-row#1-desktop",
+      "header-row#2-desktop"
     ]
   },
   "header-row#1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#departments",
-      "header-spacer",
-      "login"
+      "logo"
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+
+  "header-row#2-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#departments"
     ]
+  },
+  "logo": {
+    "title": "Header logo",
+    "props": {
+      "url": "assets/Blacksip.svg",
+      "width": 132,
+      "height": 32,
+      "mobileWidth": 90,
+      "mobileHeight": 32
+    }
   },
   
   // MOBILE
@@ -34,7 +52,10 @@
   },
   "header-row#mobile-1": {
     "children": [
-      "drawer#deparments"
+      "drawer#deparments",
+      "header-spacer",
+      "logo",
+      "header-spacer"
     ]
   }
 }
