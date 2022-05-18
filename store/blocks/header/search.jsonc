@@ -1,0 +1,17 @@
+{
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué producto buscas?",
+      "maxWidth": "500px",
+      "displayMode": "clear-button"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"],
+    "props": {
+      "autocompleteWidth": 100
+    }
+  }
+}

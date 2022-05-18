@@ -20,7 +20,10 @@
   },
   "header-row#1-desktop": {
     "children": [
-      "logo"
+      "logo",
+      "header-spacer",
+      "search-bar",
+      "header-spacer"
     ],
     "props": {
       "sticky": true
@@ -47,7 +50,8 @@
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
-      "header-row#mobile-1"
+      "header-row#mobile-1",
+      "header-row#mobile-2"
     ]
   },
   "header-row#mobile-1": {
@@ -56,6 +60,17 @@
       "header-spacer",
       "logo",
       "header-spacer"
-    ]
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+  "header-row#mobile-2": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true
+    }
   }
 }
