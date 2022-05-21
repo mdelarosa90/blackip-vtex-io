@@ -8,7 +8,8 @@
       "flex-layout.row#deparments-container"
     ],
     "props": {
-      "isFullWidth": true
+      "isFullWidth": true,
+      "blockClass": ["departments"]
     }
   },
   "flex-layout.row#deparments-container": {

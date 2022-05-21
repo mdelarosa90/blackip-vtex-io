@@ -1,0 +1,11 @@
+.wrapper--main-header :global(.vtex-store-drawer-0-x-openIconContainer--departments){
+  display: none;
+}
+
+.wrapper--main-header--stuck :global(.vtex-store-drawer-0-x-openIconContainer--departments){
+  display: block;
+}
+
+.wrapper--main-header--stuck :global(.vtex-store-header-2-x-headerRow--main-header){
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
