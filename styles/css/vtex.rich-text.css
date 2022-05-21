@@ -1,0 +1,9 @@
+.container--db-t {
+  display: none;
+}
+
+@media only screen and (min-width: 681px) and (max-width: 1024px) {
+  .container--db-t {
+    display: flex;
+  }
+}

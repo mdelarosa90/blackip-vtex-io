@@ -36,7 +36,10 @@
       "header-spacer",
       "vtex.menu@2.x:menu#departments",
       "header-spacer"
-    ]
+    ],
+    "props": {
+      "blockClass": ["shadow"]
+    }
   },
   "logo": {
     "title": "Header logo",
@@ -70,10 +73,13 @@
   },
   "header-row#mobile-2": {
     "children": [
-      "search-bar"
+      "header-spacer",
+      "search-bar",
+      "header-spacer"
     ],
     "props": {
-      "sticky": true
+      "sticky": true,
+      "blockClass": ["shadow"]
     }
   }
 }

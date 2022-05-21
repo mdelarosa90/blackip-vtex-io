@@ -2,7 +2,8 @@
   "drawer#deparments": {
     "title": "Departamentos Drawer",
     "blocks": [
-      "drawer-header#deparments"
+      "drawer-header#deparments",
+      "drawer-trigger#departments"
     ],
     "children": [
       "flex-layout.row#deparments-container"
@@ -10,6 +11,40 @@
     "props": {
       "isFullWidth": true,
       "blockClass": ["departments"]
+    }
+  },
+  "drawer-trigger#departments": {
+    "children": [
+      "flex-layout.row#deparment-menu"
+    ]
+  },
+  "flex-layout.row#deparment-menu": {
+    "children": [
+      "icon#menu",
+      "rich-text#menu"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "colGap": {
+        "desktop": 0,
+        "tablet": 4,
+        "phone": 0
+      }
+    }
+  },
+  "icon#menu": {
+    "props": {
+      "id": "hpa-hamburguer-menu",
+      "size": 20
+    }
+  },
+  "rich-text#menu": {
+    "props": {
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "text": "**Menu**",
+      "blockClass": ["db-t"]
     }
   },
   "flex-layout.row#deparments-container": {
