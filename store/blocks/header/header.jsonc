@@ -23,7 +23,8 @@
       "logo",
       "header-spacer",
       "search-bar",
-      "header-spacer"
+      "header-spacer",
+      "login"
     ],
     "props": {
       "sticky": true

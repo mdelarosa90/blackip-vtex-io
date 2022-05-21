@@ -19,18 +19,50 @@
   },
   "login": {
     "props": {
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
+      "optionsTitle": "Ingresa a tu cuenta",
+      "emailAndPasswordTitle": "Entrar",
+      "accessCodeTitle": "Recibir código",
+      "emailPlaceholder": "ejemplo@mail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Mi Cuenta"
+      "termsAndConditions": "Al registrarte estas aceptando nuestros [**Términos y Condiciones**](/terminos-y-condiciones)",
+      "iconLabel": "Mi Cuenta",
+      "accountOptionLinks": [
+        {
+            "label": "Mi Perfil",
+            "path": "/account#/profile",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis Direcciones",
+            "path": "/account#/addresses",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis Pedidos",
+            "path": "/account#/orders",
+            "cssClass": "profile-link"
+        },
+        {
+            "label": "Mis Favoritos",
+            "path": "/account#/wishlist",
+            "cssClass": "profile-link"
+        }
+      ]
     }
   },
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "Ingresa a tu cuenta",
+      "emailAndPasswordTitle": "Entrar",
+      "accessCodeTitle": "Recibir código",
+      "emailPlaceholder": "ejemplo@mail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "termsAndConditions": "Al registrarte estas aceptando nuestros [**Términos y Condiciones**](/terminos-y-condiciones)"
     }
   },
   "product-summary.shelf": {
