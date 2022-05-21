@@ -1,0 +1,20 @@
+{
+  "sticky-layout.stack-container#header": {
+    "children": [
+      "sticky-layout#main-header",
+      "header-row#2-desktop"
+    ],
+    "props": {
+      "position": "top"
+    }
+  },
+  "sticky-layout#main-header": {
+    "title": "Main header ",
+    "children": [
+      "header-row#1-desktop"
+    ],
+    "props": {
+      "blockClass": ["main-header"]
+    }
+  }
+}
