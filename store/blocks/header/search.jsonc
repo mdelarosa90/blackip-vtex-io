@@ -5,7 +5,8 @@
       "openAutocompleteOnFocus": true,
       "placeholder": "¿Qué producto buscas?",
       "maxWidth": "500px",
-      "displayMode": "clear-button"
+      "displayMode": "search-button",
+      "containerMode": "container"
     }
   },
   "autocomplete-result-list.v2": {

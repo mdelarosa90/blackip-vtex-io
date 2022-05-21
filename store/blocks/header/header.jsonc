@@ -14,12 +14,13 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
-      "header-row#1-desktop",
-      "header-row#2-desktop"
+      "sticky-layout.stack-container#header"
     ]
   },
   "header-row#1-desktop": {
+    "title": "Header row principal",
     "children": [
+      "drawer#deparments",
       "logo",
       "header-spacer",
       "search-bar",
@@ -27,14 +28,19 @@
       "login"
     ],
     "props": {
-      "sticky": true
+      "blockClass": ["main-header"]
     }
   },
-
   "header-row#2-desktop": {
+    "title": "Header row Departamentos",
     "children": [
-      "vtex.menu@2.x:menu#departments"
-    ]
+      "header-spacer",
+      "vtex.menu@2.x:menu#departments",
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": ["shadow"]
+    }
   },
   "logo": {
     "title": "Header logo",
@@ -68,10 +74,13 @@
   },
   "header-row#mobile-2": {
     "children": [
-      "search-bar"
+      "header-spacer",
+      "search-bar",
+      "header-spacer"
     ],
     "props": {
-      "sticky": true
+      "sticky": true,
+      "blockClass": ["shadow"]
     }
   }
 }
