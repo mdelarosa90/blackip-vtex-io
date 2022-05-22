@@ -1,0 +1,21 @@
+{
+  "menu#favorites": {
+    "title": "Menu favoritos",
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-favorites",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account#/wishlist",
+            "noFollow": false,
+            "tagTitle": "Mis Favoritos",
+            "text": "Mis Favoritos"
+          }
+        }
+      ]
+    }
+  }
+}

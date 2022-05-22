@@ -1,3 +1,25 @@
 .headerRowBackground--shadow {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
+
+.headerRowBackground--main-header :global(.vtex-menu-2-x-menuItem--favorites),
+.headerRowBackground--main-header-tablet :global(.vtex-menu-2-x-menuItem--favorites){
+  background: unset;
+  border-radius: unset;
+}
+
+.headerRowBackground--main-header :global(.vtex-menu-2-x-styledLink--favorites){
+  color: black;
+}
+
+.headerRowBackground--main-header-tablet :global(.vtex-menu-2-x-styledLink--favorites),
+.headerRowBackground--main-header-tablet :global(.vtex-login-2-x-label){
+  color: black;
+  font-size: 0;
+}
+
+.headerRowBackground--main-header-tablet :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+  padding-left: 0;
+  padding-right: 0;
+}
+

@@ -25,7 +25,8 @@
       "header-spacer",
       "search-bar",
       "header-spacer",
-      "login"
+      "login",
+      "menu#menu-favorites"
     ],
     "props": {
       "blockClass": ["main-header"]
@@ -57,9 +58,21 @@
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
-      "header-row#mobile-1",
+      "responsive-layout.tablet#header",
+      "responsive-layout.phone#header",
       "header-row#mobile-2"
-    ]
+    ],
+    "props": {
+      "blockClass": ["phone"]
+    }
+  },
+  "responsive-layout.phone#header": {
+    "children": [
+      "header-row#mobile-1"
+    ],
+    "props": {
+      "blockClass": ["phone"]
+    }
   },
   "header-row#mobile-1": {
     "children": [

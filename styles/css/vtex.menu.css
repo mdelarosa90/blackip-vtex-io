@@ -27,8 +27,8 @@
 
 .styledLink--favorites {
   color: white;
-  font-size: 0.875rem;
-  text-transform: capitalize;
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 .styledLinkContent--favorites {

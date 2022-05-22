@@ -1,0 +1,20 @@
+{
+  "responsive-layout.tablet#header": {
+    "children": [
+      "header-row#tablet-1"
+    ]
+  },
+  "header-row#tablet-1": {
+    "children": [
+      "drawer#deparments",
+      "header-spacer",
+      "logo",
+      "header-spacer",
+      "login",
+      "menu#menu-favorites"
+    ],
+    "props": {
+      "blockClass": ["main-header-tablet"]
+    }
+  }
+}
