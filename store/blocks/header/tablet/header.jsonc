@@ -14,7 +14,8 @@
       "menu#menu-favorites"
     ],
     "props": {
-      "blockClass": ["main-header-tablet"]
+      "blockClass": ["main-header-tablet"],
+      "sticky": true
     }
   }
 }

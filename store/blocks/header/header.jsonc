@@ -40,7 +40,7 @@
       "header-spacer"
     ],
     "props": {
-      "blockClass": ["shadow"]
+      "blockClass": ["shadow", "z-10"]
     }
   },
   "logo": {
