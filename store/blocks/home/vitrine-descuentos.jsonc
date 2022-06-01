@@ -1,6 +1,6 @@
 {
   "list-context.product-list#vitrine-slider": {
-    "title": "Vitrina de productos",
+    "title": "Vitrina de productos Descuentos",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#vitrine"]
   },
@@ -8,7 +8,6 @@
   "slider-layout#vitrine": {
     "props": {
       "itemsPerPage": {
-        "(min-width: 1400px)": 6,
         "desktop": 5,
         "tablet": 3,
         "phone": 1 
@@ -17,6 +16,13 @@
         "desktop": "disabled",
         "tablet": "disabled",
         "phone": "to-the-left"
+      },
+      "blockClass": ["carousel"],
+      "showPaginationDots": "never",
+      "arrowSize": {
+        "desktop": 14,
+        "tablet": 18,
+        "mobile": 14
       }
     }
   }

@@ -1,0 +1,28 @@
+{
+  "product-summary.shelf": {
+    "children": [
+        "stack-layout#prodsum",
+        "product-summary-name",
+        "product-list-price",
+        "product-selling-price",
+        "product-summary-space",
+        "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": ["vitrine"]
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+        "product-summary-image",
+        //"vtex.product-highlights@2.x:product-highlights#collection",
+        "product-summary-add-to-list-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "maxHeight": 206,
+      "aspectRatio": "1:1"
+    }
+  }
+}

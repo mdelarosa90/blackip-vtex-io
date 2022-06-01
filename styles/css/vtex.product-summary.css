@@ -1,0 +1,17 @@
+.container--vitrine .brandName{
+  font-size: 0.75rem;
+  line-height: 124.69%;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.container--vitrine :global(.vtex-button) {
+  font-weight: bold;
+  font-size: 0.813rem;
+  letter-spacing: 0.025em;
+}
+
+.container--vitrine :global(.vtex-button__label) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}

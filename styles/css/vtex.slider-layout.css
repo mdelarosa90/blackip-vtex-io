@@ -1,0 +1,15 @@
+.caretIcon--carousel {
+  color: #0098DA;
+}
+
+@media only screen and (min-width: 768px) {
+  .caretIcon--carousel {
+    color: #140A9A;
+  }
+}
+
+@media only screen and (min-width: 1024x) {
+  .caretIcon--carousel {
+    color: #000;
+  }
+}
