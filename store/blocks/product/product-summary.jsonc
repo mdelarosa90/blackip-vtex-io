@@ -1,28 +1,46 @@
 {
   "product-summary.shelf": {
     "children": [
-        "stack-layout#prodsum",
-        "product-summary-name",
-        "product-list-price",
-        "product-selling-price",
-        "product-summary-space",
-        "add-to-cart-button"
+      "stack-layout#prodsum",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-space",
+      "add-to-cart-button"
     ],
     "props": {
-      "blockClass": ["vitrine"]
+      "blockClass": [
+        "vitrine"
+      ]
     }
   },
   "stack-layout#prodsum": {
     "children": [
-        "product-summary-image",
-        //"vtex.product-highlights@2.x:product-highlights#collection",
-        "product-summary-add-to-list-button"
-    ]
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-price-savings#summary"
+    ],
+    "props": {
+      "blockClass": [
+        "border-gray"
+      ]
+    }
   },
   "product-summary-image": {
     "props": {
       "maxHeight": 206,
-      "aspectRatio": "1:1"
+      "aspectRatio": "1:1",
+      "showBadge": false
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "message": "{savingsPercentage}",
+      "markers": [
+        "discount"
+      ],
+      "blockClass": ["bgYellow", "text-15", "bold", "c-blue"]
     }
   }
 }

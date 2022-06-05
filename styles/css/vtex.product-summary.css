@@ -1,3 +1,7 @@
+.container--vitrine {
+  max-width: 206px !important;
+}
+
 .container--vitrine .brandName{
   font-size: 0.75rem;
   line-height: 124.69%;
@@ -9,9 +13,36 @@
   font-weight: bold;
   font-size: 0.813rem;
   letter-spacing: 0.025em;
+  border-radius: 5px;
 }
 
 .container--vitrine :global(.vtex-button__label) {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.container--vitrine .productBrandName {
+  font-size: 0.625rem;
+  color: #4f4f4f;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .container--vitrine .productBrandName {
+    font-weight: 400;
+  }
+
+  .container--vitrine :global(.vtex-button) {
+    background-color: #000;
+    color: #FFBB00;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .container--vitrine :global(.vtex-button) {
+    background-color: #fff;
+    color: #2E3192;
+    border-color: #2E3192;
+  }
 }
