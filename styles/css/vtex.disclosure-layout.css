@@ -1,0 +1,6 @@
+.trigger {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}

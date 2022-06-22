@@ -1,0 +1,13 @@
+.socialNetworksContainer {
+  justify-content: center;
+}
+
+.paymentMethodIconImage--white {
+  filter: brightness(0) invert(1);
+}
+
+@media only screen and (min-width: 680px) {
+  .acceptedPaymentMethodContainer {
+    justify-content: center;
+  }
+}

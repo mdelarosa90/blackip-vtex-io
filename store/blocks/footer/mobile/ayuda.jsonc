@@ -1,0 +1,99 @@
+{
+  "disclosure-layout#ayuda": {
+    "children": [
+      "disclosure-trigger#ayuda",
+      "disclosure-content#ayuda"
+    ]
+  },
+  "disclosure-trigger#ayuda": {
+    "children": ["rich-text#ayuda", "disclosure-state-indicator"]
+  },
+  "disclosure-content#ayuda": {
+    "children": ["menu#ayuda"]
+  },
+  "rich-text#ayuda": {
+    "props": {
+      "text": "Ayuda"
+    }
+  },
+  "menu#ayuda": {
+    "title": "Menu ayuda",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["column", "bgBlack", "link-white"],
+      "items": [
+        {
+          "id": "menu-item-category-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/categoria-1",
+            "noFollow": false,
+            "text": "Preguntas frecuentes"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-1",
+            "noFollow": false,
+            "text": "Políticas de pago"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-2",
+            "noFollow": false,
+            "text": " Políticas de envío"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-2",
+            "noFollow": false,
+            "text": "Condiciones de Cambio"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-2",
+            "noFollow": false,
+            "text": "Políticas de Garantías"
+          }
+        }
+      ]
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#down",
+      "Hide": "icon#up"
+    }
+  },
+  "icon#down": {
+    "props": {
+      "id": "mpa-angle--down"
+    }
+  },
+  "icon#up": {
+    "props": {
+      "id": "mpa-angle--up"
+    }
+  }
+}

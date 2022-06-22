@@ -36,3 +36,11 @@
   align-items: center;
 }
 
+.menuContainer--column {
+  flex-flow: column;
+}
+
+.styledLink--link-white {
+  color: white;
+}
+

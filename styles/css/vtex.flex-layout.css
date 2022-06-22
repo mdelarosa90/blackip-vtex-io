@@ -22,3 +22,16 @@
 .flexCol--justify-between {
   justify-content: space-between;
 }
+
+.flexRow--bgBlack {
+  background-color: #000;
+}
+
+.flexRowContent--column {
+  flex-flow: column;
+}
+
+.flexRowContent--column .stretchChildrenWidth {
+  flex-flow: column;
+  width: 100% !important;
+}

@@ -1,0 +1,22 @@
+{
+  "disclosure-layout-group#menu": {
+    "title": "Menu footer",
+    "children": [
+      "flex-layout.row#disclosure-layout"
+    ],
+    "props": {
+      "blockClass": "column"
+    }
+  },
+  "flex-layout.row#disclosure-layout": {
+    "children": [
+      "disclosure-layout#nosotros",
+      "disclosure-layout#ayuda",
+      "disclosure-layout#contactanos"
+    ],
+    "props": {
+      "blockClass": ["column"]
+    }
+  }
+
+}

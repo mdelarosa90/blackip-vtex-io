@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-mobile"
+    ],
+    "props": {
+      "blockClass": ["bgBlack"],
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+  "flex-layout.col#footer-mobile": {
+    "children": [
+      "responsive-layout.tablet#social-network",
+      "social-networks",
+      "disclosure-layout-group#menu",
+      "rich-text#medios-de-pago",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "rowGap": 6,
+      "verticalAlign": "middle"
+    }
+  }
+}

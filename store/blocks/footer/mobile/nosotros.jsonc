@@ -1,0 +1,61 @@
+{
+  "disclosure-layout#nosotros": {
+    "children": [
+      "disclosure-trigger#nosotros",
+      "disclosure-content#nosotros"
+    ]
+  },
+  "disclosure-trigger#nosotros": {
+    "children": ["rich-text#nosotros", "disclosure-state-indicator"]
+  },
+  "disclosure-content#nosotros": {
+    "children": ["menu#nosotros"]
+  },
+  "rich-text#nosotros": {
+    "props": {
+      "text": "Nosotros"
+    }
+  },
+  "menu#nosotros": {
+    "title": "Menu nosotros",
+    "props": {
+      "orientation": "VERTICAL",
+      "blockClass": ["column", "bgBlack", "link-white"],
+      "items": [
+        {
+          "id": "menu-item-category-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/categoria-1",
+            "noFollow": false,
+            "text": "Quienes somos"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-1",
+            "noFollow": false,
+            "text": "Aviso de privacidad"
+          }
+        },
+        {
+          "id": "menu-item-subcategory-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/subcategoria-2",
+            "noFollow": false,
+            "text": "Términos y condiciones"
+          }
+        }
+      ]
+    }
+  }
+}

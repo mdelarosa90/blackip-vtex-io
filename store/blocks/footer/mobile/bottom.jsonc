@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#bottom-mobile": {
+    "children": [
+      "rich-text#policies"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#policies": {
+    "props": {
+      "text": "© Todos los derechos reservados Empowered By"
+    }
+  }
+}
