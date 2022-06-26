@@ -1,4 +1,19 @@
 {
+  "responsive-layout.tablet#social-network": {
+    "children": [
+      "rich-text#siguenos-en"
+    ]
+  },
+  "rich-text#siguenos-en": {
+    "title": "Texto siguenos en",
+    "props": {
+      "text": "**Síguenos en**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["text-white", "text-18"]
+    }
+  },
+
   "flex-layout.row#social-networks": {
     "title": "social-networks",
     "children": [
@@ -9,10 +24,22 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "horizontalAlign": "center",
+      "horizontalAlign": {
+        "desktop": "right",
+        "tablet": "center",
+        "mobile": "center"
+      },
       "colGap": 7,
-      "marginTop": 5,
-      "marginBottom": 5
+      "marginTop": {
+        "desktop": 0,
+        "tablet": 1,
+        "mobile": 5 
+      },
+      "marginBottom": {
+        "desktop": 0,
+        "tablet": 5,
+        "mobile": 5 
+      }
     }
   },
   "image#facebook": {

@@ -1,5 +1,6 @@
 {
   "disclosure-layout#ayuda": {
+    "title": "Disclosure Ayuda",
     "children": [
       "disclosure-trigger#ayuda",
       "disclosure-content#ayuda"
@@ -15,6 +16,7 @@
     "children": ["menu#ayuda"]
   },
   "rich-text#ayuda": {
+    "title": "Texto ayuda",
     "props": {
       "text": "**Ayuda**",
       "blockClass": ["text-white", "text-18"]
@@ -24,7 +26,7 @@
     "title": "Menu ayuda",
     "props": {
       "orientation": "vertical",
-      "blockClass": ["column", "bgBlack", "link-white"],
+      "blockClass": ["column", "bgBlack", "link-white", "ml0-d", "text-14"],
       "items": [
         {
           "id": "menu-item-category-1",

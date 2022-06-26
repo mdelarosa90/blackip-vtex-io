@@ -1,0 +1,54 @@
+{
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "blockClass": ["white"]
+    }
+  },
+
+  "rich-text#medios-de-pago": {
+    "props": {
+      "text": "**Medios de pago**",
+      "blockClass": ["text-white", "center-t", "text-18"]
+    }
+  },
+  "flex-layout.row#payment-methods": {
+    "title": "payment-methods",
+    "children": [
+      "image#mastercard",
+      "image#visa",
+      "image#american-express"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": {
+        "desktop": "left",
+        "tablet": "center",
+        "mobile": "center"
+      },
+      "colGap": 8,
+      "marginTop": 3,
+      "marginBottom": 5
+    }
+  },
+  "image#mastercard": {
+    "title": "Mastercard Image",
+    "props": {
+      "src": "assets/payment/Mastercard.svg"
+    }
+  },
+  "image#visa": {
+    "title": "Visa Image",
+    "props": {
+      "src": "assets/payment/Visa.svg"
+    }
+  },
+  "image#american-express": {
+    "title": "American Express Image",
+    "props": {
+      "src": "assets/payment/American-express.svg"
+    }
+  }
+
+}

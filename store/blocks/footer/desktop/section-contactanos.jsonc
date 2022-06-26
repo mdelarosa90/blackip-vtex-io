@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#menu-contactanos": {
+    "children": [
+      "rich-text#contactanos",
+      "menu#contactanos"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  }
+}

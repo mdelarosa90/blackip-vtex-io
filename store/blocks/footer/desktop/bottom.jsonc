@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#bottom-desktop": {
+    "children": [
+      "rich-text#policies-desktop",
+      "image#blacksip-bottom",
+      "image#vtex"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "blockClass": ["items-center"],
+      "paddingTop": 0,
+      "paddingBottom": 4,
+      "colGap": 4
+    }
+  },
+  "rich-text#policies-desktop": {
+    "props": {
+      "text": "BlackSip 2022 © Todos los derechos reservados | Empowered By",
+      "font": "t-mini"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#menu-nosotros": {
+    "children": [
+      "rich-text#nosotros",
+      "menu#nosotros"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  }
+}

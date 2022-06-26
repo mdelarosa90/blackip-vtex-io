@@ -1,5 +1,6 @@
 {
   "disclosure-layout#contactanos": {
+    "title": "Disclosure Contactanos",
     "children": [
       "disclosure-trigger#contactanos",
       "disclosure-content#contactanos"
@@ -15,6 +16,7 @@
     "children": ["menu#contactanos"]
   },
   "rich-text#contactanos": {
+    "title": "Texto contactanos",
     "props": {
       "text": "**Contáctanos**",
       "blockClass": ["text-white", "text-18"]
@@ -23,8 +25,8 @@
   "menu#contactanos": {
     "title": "Menu contactanos",
     "props": {
-      "orientation": "VERTICAL",
-      "blockClass": ["column", "bgBlack", "link-white"],
+      "orientation": "vertical",
+      "blockClass": ["column", "bgBlack", "link-white", "ml0-d", "text-14"],
       "items": [
         {
           "id": "menu-item-contacto-1",

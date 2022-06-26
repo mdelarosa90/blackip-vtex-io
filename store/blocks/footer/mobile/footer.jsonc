@@ -15,7 +15,7 @@
       "flex-layout.row#social-networks",
       "disclosure-layout-group#menu",
       "rich-text#medios-de-pago",
-      "accepted-payment-methods"
+      "flex-layout.row#payment-methods"
     ],
     "props": {
       "verticalAlign": "middle",

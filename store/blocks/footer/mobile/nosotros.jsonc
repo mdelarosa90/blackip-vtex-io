@@ -1,5 +1,6 @@
 {
   "disclosure-layout#nosotros": {
+    "title": "Disclosure Nosotros",
     "children": [
       "disclosure-trigger#nosotros",
       "disclosure-content#nosotros"
@@ -15,6 +16,7 @@
     "children": ["menu#nosotros"]
   },
   "rich-text#nosotros": {
+    "title": "Texto Nosostros",
     "props": {
       "text": "**Nosotros**",
       "blockClass": ["text-white", "text-18"]
@@ -23,38 +25,38 @@
   "menu#nosotros": {
     "title": "Menu nosotros",
     "props": {
-      "orientation": "VERTICAL",
-      "blockClass": ["column", "bgBlack", "link-white"],
+      "orientation": "vertical",
+      "blockClass": ["column", "bgBlack", "link-white", "ml0-d", "text-14"],
       "items": [
         {
-          "id": "menu-item-category-1",
+          "id": "menu-item-nostros-1",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/categoria-1",
+            "href": "/quienes-somos",
             "noFollow": false,
             "text": "Quienes somos"
           }
         },
         {
-          "id": "menu-item-subcategory-1",
+          "id": "menu-item-nosotros-2",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-1",
+            "href": "/aviso-de-privacidad",
             "noFollow": false,
             "text": "Aviso de privacidad"
           }
         },
         {
-          "id": "menu-item-subcategory-2",
+          "id": "menu-item-nosotros-3",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-2",
+            "href": "/terminos-y-condiciones",
             "noFollow": false,
             "text": "Términos y condiciones"
           }

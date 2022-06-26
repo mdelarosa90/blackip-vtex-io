@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#medios-de-pago": {
+    "children": [
+      "rich-text#medios-de-pago",
+      "flex-layout.row#payment-methods"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  }
+}

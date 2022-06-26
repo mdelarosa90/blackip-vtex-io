@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#menu-ayuda": {
+    "children": [
+      "rich-text#ayuda",
+      "menu#ayuda"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  }
+}

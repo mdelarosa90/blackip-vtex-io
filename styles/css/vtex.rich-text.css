@@ -19,9 +19,7 @@
   .container--db-t {
     display: flex;
   }
-}
 
-@media only screen and (min-width: 768px) {
   .container--center-t {
     text-align: center;
     justify-content: center;

@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#footer-desktop"
+    ],
+    "props": {
+      "blockClass": ["bgBlack"],
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+  "flex-layout.col#footer-desktop": {
+    "children": [
+      "flex-layout.row#social-networks",
+      "flex-layout.row#menu-content"
+    ],
+    "props": {
+      "paddingLeft": 8,
+      "paddingRight": 8
+    }
+  },
+  "flex-layout.row#menu-content": {
+    "children": [
+      "flex-layout.col#menu-nosotros",
+      "flex-layout.col#menu-ayuda",
+      "flex-layout.col#menu-contactanos",
+      "flex-layout.col#medios-de-pago"
+    ]
+  }
+}

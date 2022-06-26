@@ -44,3 +44,14 @@
   color: white;
 }
 
+.styledLink--text-14 {
+  font-size: 0.875rem;
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .styledLinkContainer--ml0-d {
+    margin-left: 0;
+  }
+}
+
