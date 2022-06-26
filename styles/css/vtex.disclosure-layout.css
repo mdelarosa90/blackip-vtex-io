@@ -4,3 +4,12 @@
   align-items: center;
   display: flex;
 }
+
+.trigger--bgBlack {
+  background-color: #000;
+  border: none;
+}
+
+.trigger--indicator-white  :local(svg){
+  color: white;
+}

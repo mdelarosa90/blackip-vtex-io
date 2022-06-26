@@ -6,14 +6,18 @@
     ]
   },
   "disclosure-trigger#ayuda": {
-    "children": ["rich-text#ayuda", "disclosure-state-indicator"]
+    "children": ["rich-text#ayuda", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": ["bgBlack", "indicator-white"]
+    }
   },
   "disclosure-content#ayuda": {
     "children": ["menu#ayuda"]
   },
   "rich-text#ayuda": {
     "props": {
-      "text": "Ayuda"
+      "text": "**Ayuda**",
+      "blockClass": ["text-white", "text-18"]
     }
   },
   "menu#ayuda": {
@@ -88,12 +92,14 @@
   },
   "icon#down": {
     "props": {
-      "id": "mpa-angle--down"
+      "id": "mpa-angle--down",
+      "size": 20
     }
   },
   "icon#up": {
     "props": {
-      "id": "mpa-angle--up"
+      "id": "mpa-angle--up",
+      "size": 20
     }
   }
 }

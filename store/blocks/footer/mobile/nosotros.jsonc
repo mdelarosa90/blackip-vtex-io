@@ -6,14 +6,18 @@
     ]
   },
   "disclosure-trigger#nosotros": {
-    "children": ["rich-text#nosotros", "disclosure-state-indicator"]
+    "children": ["rich-text#nosotros", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": ["bgBlack", "indicator-white"]
+    }
   },
   "disclosure-content#nosotros": {
     "children": ["menu#nosotros"]
   },
   "rich-text#nosotros": {
     "props": {
-      "text": "Nosotros"
+      "text": "**Nosotros**",
+      "blockClass": ["text-white", "text-18"]
     }
   },
   "menu#nosotros": {

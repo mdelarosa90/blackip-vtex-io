@@ -12,14 +12,15 @@
   "flex-layout.col#footer-mobile": {
     "children": [
       "responsive-layout.tablet#social-network",
-      "social-networks",
+      "flex-layout.row#social-networks",
       "disclosure-layout-group#menu",
       "rich-text#medios-de-pago",
       "accepted-payment-methods"
     ],
     "props": {
-      "rowGap": 6,
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "paddingLeft": 4,
+      "paddingRight": 4
     }
   }
 }

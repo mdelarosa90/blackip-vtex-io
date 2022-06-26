@@ -2,14 +2,23 @@
   display: none;
 }
 
+.paragraph--text-white {
+  color: white;
+}
+
+.paragraph--text-18 {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.paragraph--m0 {
+  margin: 0;
+}
+
 @media only screen and (min-width: 681px) and (max-width: 1024px) {
   .container--db-t {
     display: flex;
   }
-}
-
-.paragraph--text-white {
-  color: white;
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,15 +1,35 @@
 {
   "flex-layout.row#bottom-mobile": {
     "children": [
-      "rich-text#policies"
+      "rich-text#policies",
+      "image#blacksip-bottom",
+      "image#vtex"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "blockClass": ["bottom-container"],
+      "paddingTop": 5,
+      "paddingBottom": 5
     }
   },
   "rich-text#policies": {
     "props": {
-      "text": "© Todos los derechos reservados Empowered By"
+      "text": "© Todos los derechos reservados Empowered By",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "font": "t-mini",
+      "blockClass": ["m0"]
+    }
+  },
+  "image#blacksip-bottom": {
+    "props": {
+      "src": "assets/Blacksip.svg",
+      "width": 56,
+      "heigth": 15
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/Vtex.svg"
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#social-networks": {
+    "title": "social-networks",
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#whatsapp"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "colGap": 7,
+      "marginTop": 5,
+      "marginBottom": 5
+    }
+  },
+  "image#facebook": {
+    "title": "Facebook",
+    "props": {
+      "src": "assets/Facebook.svg"
+    }
+  },
+  "image#instagram": {
+    "title": "Instagram",
+    "props": {
+      "src": "assets/Instagram.svg"
+    }
+  },
+  "image#whatsapp": {
+    "title": "whatsapp",
+    "props": {
+      "src": "assets/Whatsapp.svg"
+    }
+  }
+}

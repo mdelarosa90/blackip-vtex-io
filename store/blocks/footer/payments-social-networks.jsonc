@@ -32,8 +32,8 @@
 
   "rich-text#medios-de-pago": {
     "props": {
-      "text": "Medios de pago",
-      "blockClass": ["text-white", "center-t"]
+      "text": "**Medios de pago**",
+      "blockClass": ["text-white", "center-t", "text-18"]
     }
   }
 }

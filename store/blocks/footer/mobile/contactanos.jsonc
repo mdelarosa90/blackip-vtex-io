@@ -6,14 +6,18 @@
     ]
   },
   "disclosure-trigger#contactanos": {
-    "children": ["rich-text#contactanos", "disclosure-state-indicator"]
+    "children": ["rich-text#contactanos", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": ["bgBlack", "indicator-white"]
+    }
   },
   "disclosure-content#contactanos": {
     "children": ["menu#contactanos"]
   },
   "rich-text#contactanos": {
     "props": {
-      "text": "Contáctanos"
+      "text": "**Contáctanos**",
+      "blockClass": ["text-white", "text-18"]
     }
   },
   "menu#contactanos": {
@@ -23,34 +27,56 @@
       "blockClass": ["column", "bgBlack", "link-white"],
       "items": [
         {
-          "id": "menu-item-category-1",
+          "id": "menu-item-contacto-1",
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type": "internal",
-            "href": "/categoria-1",
+            "type": "external",
+            "href": "tel:+573156164959",
             "noFollow": false,
             "text": "Colombia: (+57) 315 616 4959 "
           }
         },
         {
-          "id": "menu-item-subcategory-1",
+          "id": "menu-item-contacto-2",
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type": "internal",
-            "href": "/subcategoria-1",
+            "type": "external",
+            "href": "tel:+525518643468",
             "noFollow": false,
             "text": "México: (+52) 55 1864 3468"
           }
         },
         {
-          "id": "menu-item-subcategory-2",
+          "id": "menu-item-contacto-3",
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type": "internal",
-            "href": "/subcategoria-2",
+            "type": "external",
+            "href": "tel:+51993245813",
+            "noFollow": false,
+            "text": "Perú: (+51) 933 245813"
+          }
+        },
+        {
+          "id": "menu-item-contacto-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "tel:+56988130017",
+            "noFollow": false,
+            "text": "Chile: (+56) 9 8813 0017"
+          }
+        },
+        {
+          "id": "menu-item-contacto-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "tel:+593989020121",
             "noFollow": false,
             "text": "Ecuador: (+593) 98 902 0121"
           }
