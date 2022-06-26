@@ -1,11 +1,4 @@
 {
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"],
-      "blockClass": ["white"]
-    }
-  },
-
   "rich-text#medios-de-pago": {
     "props": {
       "text": "**Medios de pago**",
