@@ -1,12 +1,13 @@
 {
   "flex-layout.row#footer-desktop": {
+    "title": "Row Footer Desktop",
     "children": [
       "flex-layout.col#footer-desktop"
     ],
     "props": {
       "blockClass": ["bgBlack"],
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 9
     }
   },
   "flex-layout.col#footer-desktop": {
@@ -25,6 +26,9 @@
       "flex-layout.col#menu-ayuda",
       "flex-layout.col#menu-contactanos",
       "flex-layout.col#medios-de-pago"
-    ]
+    ],
+    "props": {
+      "paddingBottom": 5
+    }
   }
 }

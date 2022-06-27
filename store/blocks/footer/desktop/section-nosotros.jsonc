@@ -5,7 +5,8 @@
       "menu#nosotros"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "paddingLeft": 8
     }
   }
 }

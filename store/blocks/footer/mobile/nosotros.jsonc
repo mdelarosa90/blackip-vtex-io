@@ -9,14 +9,14 @@
   "disclosure-trigger#nosotros": {
     "children": ["rich-text#nosotros", "disclosure-state-indicator"],
     "props": {
-      "blockClass": ["bgBlack", "indicator-white"]
+      "blockClass": ["bgBlack", "indicator-white", "pl0"]
     }
   },
   "disclosure-content#nosotros": {
     "children": ["menu#nosotros"]
   },
   "rich-text#nosotros": {
-    "title": "Texto Nosostros",
+    "title": "Texto Nosotros",
     "props": {
       "text": "**Nosotros**",
       "blockClass": ["text-white", "text-18"]

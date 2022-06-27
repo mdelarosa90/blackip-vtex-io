@@ -12,6 +12,7 @@
     }
   },
   "rich-text#policies": {
+    "title": "Text policies mobile",
     "props": {
       "text": "© Todos los derechos reservados Empowered By",
       "textPosition": "CENTER",
@@ -21,6 +22,7 @@
     }
   },
   "image#blacksip-bottom": {
+    "title": "Image blacksip bottom",
     "props": {
       "src": "assets/Blacksip.svg",
       "width": 56,
@@ -28,6 +30,7 @@
     }
   },
   "image#vtex": {
+    "title": "Image VTEX",
     "props": {
       "src": "assets/Vtex.svg"
     }

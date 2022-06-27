@@ -9,7 +9,7 @@
   "disclosure-trigger#contactanos": {
     "children": ["rich-text#contactanos", "disclosure-state-indicator"],
     "props": {
-      "blockClass": ["bgBlack", "indicator-white"]
+      "blockClass": ["bgBlack", "indicator-white", "pl0"]
     }
   },
   "disclosure-content#contactanos": {

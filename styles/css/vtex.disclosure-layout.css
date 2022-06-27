@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.trigger--pl0 {
+  padding-left: 0;
+}
+
 .trigger--bgBlack {
   background-color: #000;
   border: none;

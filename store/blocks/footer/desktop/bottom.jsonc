@@ -15,6 +15,7 @@
     }
   },
   "rich-text#policies-desktop": {
+    "title": "Text policies Desktop",
     "props": {
       "text": "BlackSip 2022 © Todos los derechos reservados | Empowered By",
       "font": "t-mini"

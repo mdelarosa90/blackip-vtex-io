@@ -43,19 +43,19 @@
     }
   },
   "image#facebook": {
-    "title": "Facebook",
+    "title": "Facebook Image",
     "props": {
       "src": "assets/Facebook.svg"
     }
   },
   "image#instagram": {
-    "title": "Instagram",
+    "title": "Instagram Image",
     "props": {
       "src": "assets/Instagram.svg"
     }
   },
   "image#whatsapp": {
-    "title": "whatsapp",
+    "title": "whatsapp Image",
     "props": {
       "src": "assets/Whatsapp.svg"
     }

@@ -19,8 +19,16 @@
     ],
     "props": {
       "verticalAlign": "middle",
-      "paddingLeft": 4,
-      "paddingRight": 4
+      "paddingLeft": {
+        "desktop": 0,
+        "tablet": 8,
+        "mobile": 4
+      },
+      "paddingRight": {
+        "desktop": 0,
+        "tablet": 6,
+        "mobile": 4
+      }
     }
   }
 }

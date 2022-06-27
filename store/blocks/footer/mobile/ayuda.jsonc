@@ -9,7 +9,7 @@
   "disclosure-trigger#ayuda": {
     "children": ["rich-text#ayuda", "disclosure-state-indicator"],
     "props": {
-      "blockClass": ["bgBlack", "indicator-white"]
+      "blockClass": ["bgBlack", "indicator-white", "pl0"]
     }
   },
   "disclosure-content#ayuda": {
@@ -29,56 +29,56 @@
       "blockClass": ["column", "bgBlack", "link-white", "ml0-d", "text-14"],
       "items": [
         {
-          "id": "menu-item-category-1",
+          "id": "menu-item-ayuda-1",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/categoria-1",
+            "href": "/preguntas-frecuentes",
             "noFollow": false,
             "text": "Preguntas frecuentes"
           }
         },
         {
-          "id": "menu-item-subcategory-1",
+          "id": "menu-item-ayuda-2",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-1",
+            "href": "/politicas-de-pago",
             "noFollow": false,
             "text": "Políticas de pago"
           }
         },
         {
-          "id": "menu-item-subcategory-2",
+          "id": "menu-item-ayuda-3",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-2",
+            "href": "/politicas-de-envio",
             "noFollow": false,
             "text": " Políticas de envío"
           }
         },
         {
-          "id": "menu-item-subcategory-2",
+          "id": "menu-item-ayuda-4",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-2",
+            "href": "/condiciones-de-cambio",
             "noFollow": false,
             "text": "Condiciones de Cambio"
           }
         },
         {
-          "id": "menu-item-subcategory-2",
+          "id": "menu-item-ayuda-5",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/subcategoria-2",
+            "href": "/politicas-de-garantia",
             "noFollow": false,
             "text": "Políticas de Garantías"
           }
