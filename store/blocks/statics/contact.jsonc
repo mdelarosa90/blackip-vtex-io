@@ -1,0 +1,79 @@
+{
+  "store.custom#contact": {
+    "children": [
+      "rich-text#contact",
+      "form#contact"
+    ]
+  },
+  "rich-text#contact": {
+    "title": "Contact",
+    "props": {
+      "text": " # Contacto",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": [
+      "form#contact"
+    ]
+  },
+  "form#contact": {
+    "props": {
+      "entity": "contacto",
+      "schema": "servicioalcliente"
+    },
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#success"
+    ]
+  },
+  "rich-text#success": {
+    "props": {
+      "text": " # Formulario enviado con exito"
+    }
+  },
+  "form-input.text#fullName": {
+    "props": {
+      "pointer": "#/properties/fullName"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#city": {
+    "props": {
+      "pointer": "#/properties/city"
+    }
+  },
+  "form-input.text#subject": {
+    "props": {
+      "pointer": "#/properties/subject"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "pointer": "#/properties/message"
+    }
+  },
+  "form-input.checkbox#termsCondition": {
+    "props": {
+      "pointer": "#/properties/termsCondition",
+      "label": "Do you agree that this is the best form component in the whole wide world?"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}
